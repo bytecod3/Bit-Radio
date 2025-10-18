@@ -5,6 +5,8 @@
 #ifndef BITRADIO_FIRMWARE_BITMAPS_H
 #define BITRADIO_FIRMWARE_BITMAPS_H
 
+extern const unsigned char bg_test[];
 extern const unsigned char splash_screen[];
+
 
 #endif //BITRADIO_FIRMWARE_BITMAPS_H

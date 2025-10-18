@@ -5,8 +5,6 @@
 #ifndef BITRADIO_FIRMWARE_CONFIG_H
 #define BITRADIO_FIRMWARE_CONFIG_H
 
-#include "lvgl.h"
-
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
 #define SCREEN_ADDR  0x3C
@@ -16,9 +14,9 @@
 #define DEBUG (1)
 
 /* enable or disable u8g2 graphics lib */
-#define USE_U8G2 0
+#define USE_U8G2 1
 
 /* enable or disable lvgl graphics lib */
-#define USE_LVGL 1
+#define USE_LVGL 0
 
 #endif //BITRADIO_FIRMWARE_CONFIG_H
